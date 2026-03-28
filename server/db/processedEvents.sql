@@ -1,1 +1,5 @@
--- Scaffold for the Idempotent Billing Webhook Handler sample repo.
+CREATE TABLE IF NOT EXISTS processed_events (
+  id TEXT PRIMARY KEY,
+  event_type TEXT NOT NULL,
+  processed_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);

@@ -1,2 +1,9 @@
-// Scaffold for the Idempotent Billing Webhook Handler sample repo.
-export {};
+export const db = {
+  name: "Idempotent Billing Webhook Handler",
+  connected: false,
+  async query() {
+    return [];
+  },
+};
+
+export default db;

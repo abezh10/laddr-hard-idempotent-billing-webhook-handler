@@ -1,4 +1,12 @@
 {
-  "name": "hard-idempotent-billing-webhook-handler",
-  "private": true
+  "name": "laddr-hard-idempotent-billing-webhook-handler",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "echo \"Sample repo scaffold\"",
+    "start": "echo \"Sample repo scaffold\""
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
